@@ -3,3 +3,9 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@layer components {
+  .inputField {
+    @apply rounded p-2 text-green-600;
+  }
+}
